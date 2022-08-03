@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Box } from "@mui/material";
+import { Helmet } from "react-helmet";
 import { fetchData, exerciseOptions, youtubeOptions } from "../utils/fetchData";
 import Detail from "../components/Detail";
 import ExerciseVideos from "../components/ExerciseVideos";
@@ -48,12 +49,18 @@ const ExerciseDetail = () => {
 
   return (
     <Box>
+      <Helmet>
+        <title>{`Work-It-Out | ${exerciseDetail.name}`}</title>
+      </Helmet>
       <Detail exerciseDetail={exerciseDetail} />
       <ExerciseVideos
         exerciseVideos={exerciseVideos}
         name={exerciseDetail.name}
       />
-      <SimilarVideos targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises} />
+      <SimilarVideos
+        targetMuscleExercises={targetMuscleExercises}
+        equipmentExercises={equipmentExercises}
+      />
     </Box>
   );
 };

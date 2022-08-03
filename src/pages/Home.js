@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 import HeroBanner from "../components/HeroBanner";
 import SearchExercises from "../components/SearchExercises";
 import Exercises from "../components/Exercises";
+import { Helmet } from "react-helmet";
 
 
 const Home = () => {
@@ -12,6 +13,9 @@ const Home = () => {
 
   return (
     <Box>
+    <Helmet>
+      <title>Work-It-Out | Home</title>
+    </Helmet>
       <HeroBanner />
       <SearchExercises
         setExercises={setExercises}
