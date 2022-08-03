@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deployed:
-To view the deployed app [click here](https://work-it-out-app.netlify.app/).
+To view the deployed app [click here](https://workout-app-beta.vercel.app/).
 
 
 ## Available Scripts
