@@ -5,7 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Deployed:
 [Link](https://work-it-out-app.netlify.app/)
 
-In the project directory, you can run:
 
 ## Available Scripts
 
