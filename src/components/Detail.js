@@ -31,7 +31,7 @@ const Detail = ({ exerciseDetail }) => {
       <Stack sx={{ gap: { lg: "35px", xs: "20px" } }}>
         <Typography textTransform='capitalize' variant="h3">{name}</Typography>
         <Typography variant="h6">
-          Excercises keep you strong. {name} is one of the best exercises to
+          Excercises keep you strong, {name} is one of the best exercises to
           target your {target}. It will help you improve your mood and gain
           energy.
         </Typography>

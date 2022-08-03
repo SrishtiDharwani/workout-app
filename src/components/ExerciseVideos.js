@@ -25,7 +25,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={item.video.thumbnails[0].url} alt={item.video.title} style={{borderRadius:'20px'}} height='200' width='400'/>
+            <img src={item.video.thumbnails[0].url} alt={item.video.title} />
             <Box>
                 <Typography variant="h5" color='#000'>
                     {item.video.title}
