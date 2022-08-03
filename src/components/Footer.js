@@ -11,7 +11,7 @@ const Footer = () => {
           Work-It-Out
         </Typography>
       </Stack>
-      <Typography variant='h6' align='center'>Made with ❤️. </Typography>
+      <Typography variant='h6' align='center'>Made with ❤️ by Srishti. </Typography>
     </Box>
   )
 }
